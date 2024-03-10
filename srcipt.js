@@ -19,7 +19,7 @@ if (item > 20) {
 let result2 = item > 20 ? "მეტია 20-ზე" : "შეცდომა";
 console.log(result2);
 
-//--
+ //--
 
 let person = "მარიამი";
 
@@ -33,3 +33,10 @@ let result3 = (person = "მარიამი" ? true : false);
 console.log(result3);
 
 //--
+switch (person) {
+  case "მარიამი":
+    console.log("true");
+    break;
+  default:
+    console.log("false");
+}
